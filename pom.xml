@@ -7,6 +7,14 @@
     <groupId>top.haidong556</groupId>
     <artifactId>trace</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>untitled</module>
+        <module>span</module>
+        <module>trace-common-domain</module>
+        <module>trace-trace</module>
+        <module>trace-span</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
